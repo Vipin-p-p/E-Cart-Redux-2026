@@ -19,7 +19,7 @@ function App() {
         <Route path='/products/:id' element={<View />} />
         <Route path='/wishlist' element={<Wishlist />} />
         <Route path='/cart' element={<Cart />} />
-        <Route path='/' element={<PageNotFound />} />
+        <Route path='/*' element={<PageNotFound />} />
       </Routes>
       <Footer />
     </>

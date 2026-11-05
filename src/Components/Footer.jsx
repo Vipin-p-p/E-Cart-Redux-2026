@@ -5,7 +5,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 function Footer() {
   return (
-    <div style={{ backgroundColor: '#365f83', height: "330px" }} className='container-fluid text-light p-5'>
+    <div style={{ backgroundColor: '#FF69B4', height: "330px" }} className='container-fluid text-light p-5'>
       <div className='row'>
         {/* First Column */}
         <div className='col-lg-5'>
@@ -59,7 +59,7 @@ function Footer() {
       <div className='row mt-5'>
         <div className='col-12 text-center'>
           <h6 className='text-white'>
-            Copyright © August 2025 Batch, Daily Cart.
+            Copyright © July 2026 Batch, Daily Cart.
             Built with React Redux.
           </h6>
         </div>
