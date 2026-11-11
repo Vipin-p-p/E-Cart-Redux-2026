@@ -4,11 +4,11 @@ import Header from '../Components/Header'
 
 function Cart() {
   return (
-   <>
-      <Header/>
+    <>
+      <Header />
       <div className='container my-5'>
-                  <h1 className='pt-5 text-info fw-bold'>User's Cart</h1>
-  
+        <h1 className='pt-5 text-info fw-bold'>User's Cart</h1>
+
         <div className='row'>
           <div className="col-lg-8 border shadow">
             <table className='table'>
@@ -30,7 +30,7 @@ function Cart() {
                   <td>
                     <div className='d-flex'>
                       <button className='btn fs-1'>-</button>
-                      <input style={{width:"50px"}} value={10} type="text" className='form-control' readOnly />
+                      <input style={{ width: "50px" }} value={10} type="text" className='form-control' readOnly />
                       <button className='btn fs-1'>+</button>
                     </div>
                   </td>
@@ -38,31 +38,31 @@ function Cart() {
                   <td><button className='btn text-danger fs-1 fw-bold'>X</button></td>
                 </tr>
               </tbody>
-  
+
             </table>
             <div className='float-end p-3'>
               <button className='btn btn-danger'>EMPTY CART</button>
               <Link to={"/"} className='btn btn-info ms-5'>SOHP MORE</Link>
             </div>
-  
+
           </div>
-  
+
           <div className="col-lg-4">
             <div className='border shadow rounded p-5 text-center'>
               <h3>Total Amount : <span className='text-danger'>$30</span></h3>
               <hr />
               <button className='btn btn-success w-75'>CHECKOUT</button>
-              
+
             </div>
-  
-  
+
+
           </div>
-  
-  
+
+
         </div>
-        
+
       </div>
-   </>
+    </>
   )
 }
 

@@ -1,18 +1,18 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Header from '../Components/Header'
 
 
 function PageNotFound() {
   return (
-   <>
-      <Header/>
-       <div style={{ height: "90vh" }} className='d-flex justify-content-center align-items-center flex-column'>
+    <>
+      <Header />
+      <div style={{ height: "90vh" }} className='d-flex justify-content-center align-items-center flex-column'>
         <img className='w-25' src="https://www.innonet.nl/wp-content/uploads/2017/11/Page-not-found.png" alt="" />
         <h1 className='my-5'> WE ARE SORRY,LOOK LIKE YOUR LOST</h1>
         <Link to={'/'} className='btn btn-dark'>BACK TO HOME</Link>
       </div>
-   </>
+    </>
   )
 }
 
